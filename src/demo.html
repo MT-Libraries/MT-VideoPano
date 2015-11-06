@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo for MT-VideoPano</title>
+
+    <style>
+        html,
+        body,
+        #container{
+            margin:0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        #container{
+            overflow: hidden;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div id="container">
+
+    </div>
+
+    <script src="../dist/videoPano.js"></script>
+    <script>
+
+        var videoPano = new VideoPano({
+            src:'../assets/video/demo.mp4',
+            fov:105,
+            loop:true,
+            container:'container',
+            autoplay:true
+        });
+
+        videoPano.init();
+
+    </script>
+</body>
+</html>

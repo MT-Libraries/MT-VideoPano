@@ -1,0 +1,27 @@
+{
+  "name": "mt-video-pano",
+  "version": "0.1.0",
+  "description": "Panoroma viewer for video",
+  "main": "",
+  "dependencies": {
+    "gulp-concat": "^2.6.0",
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://git@github.com/MT-Libraries/MT-VideoPano.git"
+  },
+  "keywords": [
+    "panoroma"
+  ],
+  "author": "Thonatos.Yang <thonatos.yang@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MT-Libraries/MT-VideoPano/issues"
+  },
+  "homepage": "https://github.com/MT-Libraries/MT-VideoPano#readme"
+}
