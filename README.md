@@ -13,7 +13,7 @@ Panoroma viewer for video.
 #### #config & init
 
 ```
-var videoPano = new videoPano({
+var videoPano = new VideoPano({
     src: '../assets/video/demo.mp4',
     fov: 105,
     loop: true,
